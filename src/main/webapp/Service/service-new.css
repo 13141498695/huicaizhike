@@ -1,0 +1,968 @@
+
+.clearfix {*zoom: 1;}
+.clearfix:before,
+.clearfix:after {display: table;line-height: 0;content: "";}
+.clearfix:after {clear: both; }
+/* 清除浮动 */
+
+.service-new-header{
+	background: #fff !important;
+}
+
+#header h1 a{
+	background-image: url(../images/logo2.png) !important;
+}
+
+#header .nav li a{
+	color: #4d4d4d !important;
+}
+
+#header .nav li a:hover,
+#header .nav li a.select{
+	color: #005395 !important;
+}
+
+.service-new li{
+	float: left;
+	width: 33.33333%;
+}
+
+.service-new li a{
+	display: block;
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+
+.service-new li a .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.service-new li a .text{
+	position: absolute;
+	left: 0;
+	top:76%;
+	width: 100%;
+	text-align: center;
+	webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.service-new li a::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 8px;
+	background: rgb(2,84,153);
+	webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.service-new .text h1{
+	display: inline-block;
+    border-bottom: solid 2px #fff;
+    border-top: solid 2px #fff;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.service-new .text p{
+	width: 59%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.service-new li a:hover .img{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.service-new li a:hover::after{
+	width: 100%;
+}
+
+.service-new li a:hover .text{
+	-webkit-transform: translateY(-60px);
+	-moz-transform: translateY(-60px);
+	-ms-transform: translateY(-60px);
+	-o-transform: translateY(-60px);
+	transform: translateY(-60px);
+}
+
+@media only screen and (max-width: 1400px) {
+	.service-new li a .text{
+		top: 70%;
+	}
+	.service-new li a .text h1{
+		font-size: 21px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.service-new li{
+		width: 50%;
+	}
+	.service-new .text p{
+		width: 84%;
+	}
+}
+
+
+@media only screen and (max-width:640px) {
+	.service-new{
+		padding: 20px;
+	}
+	.service-new li{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.service-new .text p{
+		width: auto;
+		padding: 0 20px;
+	}
+	.bb20{
+		border-bottom: 1px solid #f0f0f0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

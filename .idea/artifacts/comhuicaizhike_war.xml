@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comhuicaizhike:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.huicaizhike.war">
+      <element id="artifact" artifact-name="comhuicaizhike:war exploded" />
+    </root>
+  </artifact>
+</component>
